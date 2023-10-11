@@ -107,4 +107,16 @@ menarik, bisa ditambahkan CSS seperti gambar berikut.
 
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
+Jawab :
+
+![jawaban](https://github.com/nadyakhorun/Lab3_PemrogramanWeb/assets/115801823/7a40b8e0-4115-49cb-9290-a61cbe4248a2)
+
+![jawaban lanjutan](https://github.com/nadyakhorun/Lab3_PemrogramanWeb/assets/115801823/f8fef7b6-b80e-4e95-ae08-f2f0e34e2f62)
+
+![hasil jawaban](https://github.com/nadyakhorun/Lab3_PemrogramanWeb/assets/115801823/dfe9ee43-0bcc-439c-a5c8-d120aeb775dd)
+
+Pada contoh di atas, kita menggunakan elemen < select > untuk membuat dropdown menu dan listbox. Untuk membuat listbox dengan pilihan ganda, tambahkan atribut multiple pada elemen < select >. Nilai dari listbox akan dikirim sebagai array karena kita menggunakan name="listbox[]". Jika ingin melakukan pemrosesan lebih lanjut, Anda bisa mengirimkan formulir ini ke skrip server PHP (dalam contoh ini, proses_form.php) dan mengakses nilai formulir melalui variabel POST.
+
+Pastikan untuk mengganti action pada elemen < form > dengan skrip yang sesuai dengan server anda, atau biarkan kosong jika anda hanya ingin menampilkan formulir tanpa pemrosesan server.
+
 # Sekian, TerimaKasih
